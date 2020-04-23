@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>971</width>
+      <height>731</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QPushButton" name="pushButtonOrdenarPorCodigo">
+       <property name="text">
+        <string>Ordenar Por Codigo Fila</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="pushButtonOrdenarPorNome">
+       <property name="text">
+        <string>Ordenar Por Codigo Pilha</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="pushButtonOrdenarPorNomeFila">
+       <property name="text">
+        <string>Ordenar Por Nome Fila</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QPushButton" name="pushButtonOrdenarPorNomePilha">
+       <property name="text">
+        <string>Ordenar Por Nome Pilha</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QPushButton" name="pushButtonOrdenarPorSobrenomeFila">
+       <property name="text">
+        <string>Ordenar Por Sobrenome Fila</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="5">
+      <widget class="QPushButton" name="pushButtonOrdenarPorSobrenomePilha">
+       <property name="text">
+        <string>Ordenar Por Sobrenome Pilha</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="pushButtonPreFDireita">
+       <property name="text">
+        <string>PreFDireita</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="pushButtonPreFEsquerda">
+       <property name="text">
+        <string>PreFEsquerda</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="pushButtonNomePreFDireita">
+       <property name="text">
+        <string>PreFDireita</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QPushButton" name="pushButtonNomePreFEsquerda">
+       <property name="text">
+        <string>PreFEsquerda</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="4">
+      <widget class="QPushButton" name="pushButtonSobrenomePreFDireita">
+       <property name="text">
+        <string>PreFDireita</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="5">
+      <widget class="QPushButton" name="pushButtonSobreNomePreFEsquerda">
+       <property name="text">
+        <string>PreFEsquerda</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="pushButtonPosFDireita">
+       <property name="text">
+        <string>PosFDireita</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="pushButtonProsFEsquerda">
+       <property name="text">
+        <string>ProsFEsquerda</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="pushButtonNomePosFDireita">
+       <property name="text">
+        <string>PosFDireita</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QPushButton" name="pushButtonNomeProsFEsquerda">
+       <property name="text">
+        <string>ProsFEsquerda</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="4">
+      <widget class="QPushButton" name="pushButtonSobrenomePosFDireita">
+       <property name="text">
+        <string>PosFDireita</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="5">
+      <widget class="QPushButton" name="pushButtonSobrenomeProsFEsquerda">
+       <property name="text">
+        <string>ProsFEsquerda</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0" colspan="6">
+      <widget class="QTableWidget" name="tableWidgetSaida">
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>161</number>
+       </attribute>
+       <column>
+        <property name="text">
+         <string>Codigo</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Nome</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Curso</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Graduação</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Não Sei</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Data</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
